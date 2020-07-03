@@ -1,7 +1,16 @@
 {
   "main.css": "static/css/main.a0c42253.css",
   "main.css.map": "static/css/main.a0c42253.css.map",
-  "main.js": "static/js/main.00add386.js",
-  "main.js.map": "static/js/main.00add386.js.map",
-  "static/media/logo.png": "static/media/logo.60ca8a7b.png"
+  "main.js": "static/js/main.3f67baa5.js",
+  "main.js.map": "static/js/main.3f67baa5.js.map",
+  "static/media/bugtracker.png": "static/media/bugtracker.59966afc.png",
+  "static/media/githubcard.png": "static/media/githubcard.3a34acd4.png",
+  "static/media/logo.png": "static/media/logo.60ca8a7b.png",
+  "static/media/maze.png": "static/media/maze.6245ab9e.png",
+  "static/media/responsivephoto.png": "static/media/responsivephoto.8e7cbfd7.png",
+  "static/media/shoestore.jpg": "static/media/shoestore.861f53e8.jpg",
+  "static/media/sokoban.png": "static/media/sokoban.00470aab.png",
+  "static/media/subtracker.png": "static/media/subtracker.08bfc0d0.png",
+  "static/media/todo.png": "static/media/todo.2ed1d441.png",
+  "static/media/twitterclone.png": "static/media/twitterclone.59d5fcc2.png"
 }
