@@ -25,7 +25,7 @@ class Projects extends Component {
           {/* javascript */}
           {/* Maze */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${maze}) center / cover`}} >Maze </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/maze.png}) center / cover`}} >Maze </CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
@@ -42,7 +42,7 @@ class Projects extends Component {
 
           {/* responsive photo gallery */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${marvel}) center / cover`}} >Responsive Photo Gallery</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/marvel.png}) center / cover`}} >Responsive Photo Gallery</CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
@@ -58,7 +58,7 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${sokoban}) center / cover`}} >Sokoban</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/sokoban.png}) center / cover`}} >Sokoban</CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
@@ -81,7 +81,7 @@ class Projects extends Component {
           {/* react */}
           {/* Maze */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${githubcard}) center / cover`}} >Github Card </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/githubcard.png}) center / cover`}} >Github Card </CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI! 
             </CardText>
@@ -98,7 +98,7 @@ class Projects extends Component {
 
           {/* responsive photo gallery */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${todo}) center / cover`}} >ToDo App</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/todo.png}) center / cover`}} >ToDo App</CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI! 
             </CardText>
@@ -114,7 +114,7 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${subtracker}) center / cover`}} >Subscription Tracker</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/subtracker.png}) center / cover`}} >Subscription Tracker</CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI!
             </CardText>
@@ -136,7 +136,7 @@ class Projects extends Component {
         <div className='projects-grid'>
           {/* django */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${twitterclone}) center / cover`}} >TwitterClone </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/twitterclone.png}) center / cover`}} >TwitterClone </CardTitle>
             <CardText>
               Used Django, Python, HTML, and some static CSS! 
             </CardText>
@@ -152,7 +152,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto' }} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${bugtracker}) center / cover`}} >BugTracker</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/bugtracker.png}) center / cover`}} >BugTracker</CardTitle>
             <CardText>
             Used Django, Python, HTML, and some static CSS! 
             </CardText>
@@ -168,7 +168,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${shoestore}) center / cover`}} >ShoeStore </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/shoestore.jpg}) center / cover`}} >ShoeStore </CardTitle>
             <CardText>
               Used Django, Python, React, HTML, and some static CSS! 
             </CardText>
@@ -191,7 +191,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* ALL */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${maze}) center / cover`}} >Maze </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/maze.png}) center / cover`}} >Maze </CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
@@ -208,7 +208,7 @@ class Projects extends Component {
 
           {/* responsive photo gallery */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${marvel}) center / cover`}} >Responsive Photo Gallery</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/marvel.png}) center / cover`}} >Responsive Photo Gallery</CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
@@ -223,7 +223,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} >
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${sokoban}) center / cover`}} >Sokoban</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/sokoban.png}) center / cover`}} >Sokoban</CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
@@ -238,7 +238,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${githubcard}) center / cover`}} >Github Card </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/githubcard.png}) center / cover`}} >Github Card </CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI! 
             </CardText>
@@ -255,7 +255,7 @@ class Projects extends Component {
 
           {/* responsive photo gallery */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${todo}) center / cover`}} >ToDo App</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/todo.png}) center / cover`}} >ToDo App</CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI! 
             </CardText>
@@ -271,7 +271,7 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${subtracker}) center / cover`}} >Subscription Tracker</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/subtracker.png}) center / cover`}} >Subscription Tracker</CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI!
             </CardText>
@@ -286,7 +286,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${twitterclone}) center / cover`}} >TwitterClone </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/twitterclone.png}) center / cover`}} >TwitterClone </CardTitle>
             <CardText>
               Django, Python, HTML, and some static CSS! 
             </CardText>
@@ -302,7 +302,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${bugtracker}) center / cover`}} >BugTracker</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/bugtracker.png}) center / cover`}} >BugTracker</CardTitle>
             <CardText>
             Django, Python, HTML, and some static CSS! 
             </CardText>
@@ -318,7 +318,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
-            <CardTitle style={{color: '#fff', height: '176px', background: `url(${shoestore}) center / cover`}} >ShoeStore </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${images/shoestore.jpg}) center / cover`}} >ShoeStore </CardTitle>
             <CardText>
             Django, Python, React, HTML, and some static CSS! 
             </CardText>
