@@ -6,14 +6,17 @@ import logo from './images/logo.png';
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="landing-grid">
+      <div style={{width: '100%', margin: 'auto', }}>
+        <Grid className="landing-grid" style={{overflowY: 'scroll'}}>
           <Cell col={12}>
-            <img
+            <div className='container-logo'>
+            <img 
               src={logo}
               alt="avatar"
-              style={{width: '600px', height: '460px', marginBottom: '2px'}}
+              style={{width: '400px', height: '260px', marginBottom: '2px', margin: 'auto',}}
+              className= "logo-img"
               />
+              </div>
 
             <div className="banner-text" style={{marginTop: '2px'}}>
               <h1>Full Stack Web Developer</h1>
