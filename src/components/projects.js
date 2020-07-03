@@ -17,7 +17,7 @@ class Projects extends Component {
           {/* javascript */}
           {/* Maze */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: `images/maze.png center / cover`}} >Maze </CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `./images/maze.png center / cover`}} >Maze </CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
