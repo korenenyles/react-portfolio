@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import logo from './images/logo.png';
 
 
 class Contact extends Component {
@@ -8,13 +9,13 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Paul Hanna</h2>
+            
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src={logo}
               alt="avatar"
-              style={{height: '250px'}}
+              style={{height: '350px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I am Soon to be Full Stack Developer in July 2020. I have been Front End Certified, and I absolutely love it. I am a determined, self starter, and independent worker. I will accomplish whatever I can, even if the skill is not in my wheel house, I will try to find the solution and if I can't find the solution myself, I will find someone to assist with the project who can! I didn't know that my creativity could be translated into code until I found Kenzie Academy and now I'm so thankful I did. Please contact me with any questions that you may have or any opportunities that might be available.</p>
 
           </Cell>
           <Cell col={6}>
@@ -26,30 +27,25 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456-7890
+                    (765) 513-8108
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-fax" aria-hidden="true"/>
-                    (123) 456-7890
+                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                    <a href= 'https://www.linkedin.com/in/koren-nyles/'>Here</a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    someone@example.com
+                    korenenyles@gmail.com
                   </ListItemContent>
                 </ListItem>
 
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID
-                  </ListItemContent>
-                </ListItem>
+                
 
 
               </List>

@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import logo from './images/logo.png';
 
 
 class Resume extends Component {
@@ -13,78 +14,96 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src={logo}
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{width: '500px',height: '300px', margin: 'auto'}}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <h2 style={{margin: 'auto',paddingTop: '2'}}>Koren Nyles</h2>
+            <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
+            <hr style={{borderTop: '3px solid #581845'}}/>
+            <p>Full Stack Developer passionate about creating cutting-edge products that will make a difference. Strong work ethic and dedicated to quality assurance. Adept at working with teams or independently in fast-paced and remote settings. </p>
+            <hr style={{borderTop: '3px solid #581845'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>Upon Request</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>Upon Request</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <p>korenenyles@gmail.com</p>
             <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <p>korennyles.com</p>
+            <hr style={{borderTop: '3px solid #581845'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2019}
+              endYear={2020}
+              schoolName="Kenzie Academy"
+              schoolDegree="Full Stack Certificate"
                />
 
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+            <Education
+              startYear={2017}
+              endYear={2017}
+              schoolName="Indiana University Kokomo"
+              
+              />
+
+            <Education
+              startYear={2013}
+              endYear={2014}
+              schoolName="Indiana University Purdue University Fort Wayne"
+              
+              />
+
+            <Education
+              startYear={2000}
+              endYear={2013}
+              schoolName="Emmanuel Christian School"
+              schoolDegree="High School Degree"
+              />
+
+
+
+                
+                <hr style={{borderTop: '3px solid #581845'}} />
 
               <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={"September 2019"}
+              endYear={"Current"}
+              jobName="Independent Contractor for Kenzie Academy"
+              jobDescription="Software Engineering Coach - Assisting students with assessments, and technical issues. Grading assessments and assisting facilitators with what they might need."
               />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={"May 2019"}
+                endYear={"September 2019"}
+                jobName="Kelly Connect - Apple Project"
+                jobDescription="Customer service representative - assisting customers with all issues their IOS devices. Also pointing customers in the right direction if unable to mee their needs."
                 />
-              <hr style={{borderTop: '3px solid #e22947'}} />
+              <hr style={{borderTop: '3px solid #581845'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
-                progress={100}
+                skill="HTML/CSS/Javascript"
+                progress={85}
                 />
                 <Skills
-                  skill="HTML/CSS"
-                  progress={80}
+                  skill="Python/Django/ReST"
+                  progress={95}
                   />
                   <Skills
-                    skill="NodeJS"
-                    progress={50}
+                    skill="React/Redux/Heroku"
+                    progress={65}
                     />
                     <Skills
-                      skill="React"
-                      progress={25}
+                      skill="Semantic UI/Bootstrap"
+                      progress={50}
                       />
 
 

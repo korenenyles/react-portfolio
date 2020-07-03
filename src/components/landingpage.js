@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import logo from './images/logo.png';
 
 
 class Landing extends Component {
@@ -9,39 +10,41 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src={logo}
               alt="avatar"
-              className="avatar-img"
+              style={{width: '600px', height: '460px', marginBottom: '2px'}}
               />
 
-            <div className="banner-text">
+            <div className="banner-text" style={{marginTop: '2px'}}>
               <h1>Full Stack Web Developer</h1>
 
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | Bootstrap | JavaScript | Semantic UI | React | Redux | Heroku | Django | Git | ReST | PostgreSQL 
+          </p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/koren-nyles/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/korenenyles" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          {/* GitLab */}
+          <a href="https://gitlab.com/korenenyles" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-gitlab" aria-hidden="true" />
           </a>
 
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
+          {/* Twitter */}
+          <a href="https://twitter.com/KnovaNyles" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-twitter-square" aria-hidden="true" />
           </a>
+        
 
         </div>
             </div>
