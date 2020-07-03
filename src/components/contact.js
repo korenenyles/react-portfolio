@@ -11,7 +11,7 @@ class Contact extends Component {
           <Cell col={6}>
             
             <img
-              src="images/logo.png"
+              src={logo}
               alt="avatar"
               style={{height: '350px'}}
                />
