@@ -2,6 +2,7 @@
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://korenenyles.github.io/react-portfolio",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -10,9 +11,14 @@
     "react-scripts": "1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
