@@ -12,7 +12,8 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{textAlign: 'center'}}>
+            <div className="logo-img" style={{textAlign: 'center'}}>
+
               <img
                 src={logo}
                 alt="avatar"
@@ -94,11 +95,11 @@ class Resume extends Component {
                 progress={85}
                 />
                 <Skills
-                  skill="Python/Django/ReST"
+                  skill="  Python/Django/ReST"
                   progress={95}
                   />
                   <Skills
-                    skill="React/Redux/Heroku"
+                    skill=" React/Redux/Heroku"
                     progress={65}
                     />
                     <Skills

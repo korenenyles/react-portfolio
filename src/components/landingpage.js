@@ -6,10 +6,10 @@ import logo from './images/logo.png';
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100%', margin: 'auto', }}>
+      <div style={{width: 'auto', margin: 'auto', }}>
         <Grid className="landing-grid" style={{overflowY: 'scroll'}}>
           <Cell col={12}>
-            <div className='container-logo'>
+            <div className='logo-img'>
             <img 
               src={logo}
               alt="avatar"
@@ -17,8 +17,8 @@ class Landing extends Component {
               className= "logo-img"
               />
               </div>
-
-            <div className="banner-text" style={{marginTop: '2px'}}>
+            <div className="banner-container">
+            <div className="banner-text" style={{width: 'auto', marginTop: '2px'}}>
               <h1>Full Stack Web Developer</h1>
 
             <hr/>
@@ -48,7 +48,7 @@ class Landing extends Component {
             <i className="fa fa-twitter-square" aria-hidden="true" />
           </a>
         
-
+        </div>
         </div>
             </div>
           </Cell>

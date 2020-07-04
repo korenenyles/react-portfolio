@@ -24,14 +24,14 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* javascript */}
           {/* Maze */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${maze}) center / cover`}} >Maze </CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
             <CardActions border>
-              <a href='https://gitlab.com/kenzieprojects/maze'><Button colored>Gitlab</Button></a>
-              <a href='https://kenzieprojects.gitlab.io/maze '><Button colored>Live Demo</Button></a>
+              <a href='https://gitlab.com/kenzieprojects/maze' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/maze ' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
               
               
             </CardActions>
@@ -41,15 +41,15 @@ class Projects extends Component {
           </Card>
 
           {/* responsive photo gallery */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${marvel}) center / cover`}} >Responsive Photo Gallery</CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
             <CardActions border>
-              <a href='https://gitlab.com/kenzieprojects/responsivephotogallery'><Button colored>Gitlab</Button></a>
+              <a href='https://gitlab.com/kenzieprojects/responsivephotogallery' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
               
-              <a href='https://kenzieprojects.gitlab.io/responsivephotogallery'><Button colored>Live Demo</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/responsivephotogallery' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -57,15 +57,15 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${sokoban}) center / cover`}} >Sokoban</CardTitle>
             <CardText>
               Used HTML, CSS, and Javascript! 
             </CardText>
             <CardActions border>
-            <a href='https://gitlab.com/kenzieprojects/sokoban'><Button colored>Gitlab</Button></a>
+            <a href='https://gitlab.com/kenzieprojects/sokoban' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
               
-              <a href='https://kenzieprojects.gitlab.io/sokoban '><Button colored>Live Demo</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/sokoban' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -80,14 +80,14 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* react */}
           {/* Maze */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${githubcard}) center / cover`}} >Github Card </CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI! 
             </CardText>
             <CardActions border>
-              <a href='https://gitlab.com/kenziequartertwoprojects/github-card'><Button colored>Gitlab</Button></a>
-              <a href='https://kenzieprojects.gitlab.io/github-card'><Button colored>Live Demo</Button></a>
+              <a href='https://gitlab.com/kenziequartertwoprojects/github-card' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/github-card' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
               
               
             </CardActions>
@@ -97,15 +97,15 @@ class Projects extends Component {
           </Card>
 
           {/* responsive photo gallery */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${todo}) center / cover`}} >ToDo App</CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI! 
             </CardText>
             <CardActions border>
-              <a href='https://gitlab.com/kenziequartertwoprojects/todo-app-part3'><Button colored>Gitlab</Button></a>
+              <a href='https://gitlab.com/kenziequartertwoprojects/todo-app-part3' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
               
-              <a href='https://kenzieprojects.gitlab.io/todo-app-part3'><Button colored>Live Demo</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/todo-app-part3' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -113,15 +113,15 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${subtracker}) center / cover`}} >Subscription Tracker</CardTitle>
             <CardText>
               Used React, Redux, and Semantic UI!
             </CardText>
             <CardActions border>
-            <a href='https://gitlab.com/kenziequartertwoprojects/subscription-tracker/'><Button colored>Gitlab</Button></a>
+            <a href='https://gitlab.com/kenziequartertwoprojects/subscription-tracker/' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
               
-              <a href='https://coryt87.gitlab.io/subscription-tracker/'><Button colored>Live Demo</Button></a>
+              <a href='https://coryt87.gitlab.io/subscription-tracker/' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -135,13 +135,13 @@ class Projects extends Component {
       return (
         <div className='projects-grid'>
           {/* django */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className= 'card'>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${twitterclone}) center / cover`}} >TwitterClone </CardTitle>
             <CardText>
               Used Django, Python, HTML, and some static CSS! 
             </CardText>
             <CardActions border>
-              <a href='https://github.com/korenenyles/twitterclone'><Button colored>Github</Button></a>
+              <a href='https://github.com/korenenyles/twitterclone' rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
               
               
               
@@ -151,13 +151,13 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto' }} className= 'card'>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px' }} className= 'card'>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${bugtracker}) center / cover`}} >BugTracker</CardTitle>
             <CardText>
             Used Django, Python, HTML, and some static CSS! 
             </CardText>
             <CardActions border>
-              <a href='https://github.com/korenenyles/whats-up-doc'><Button colored>Github</Button></a>
+              <a href='https://github.com/korenenyles/whats-up-doc' rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
               
               
               
@@ -167,14 +167,14 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className= 'card'>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '15px'}} className= 'card'>
             <CardTitle style={{color: '#fff', height: '176px', background: `url(${shoestore}) center / cover`}} >ShoeStore </CardTitle>
             <CardText>
               Used Django, Python, React, HTML, and some static CSS! 
             </CardText>
             <CardActions border>
-              <a href='https://github.com/korenenyles/drf_shoestore_frontend'><Button colored>Frontend</Button></a>
-              <a href='https://github.com/korenenyles/drf_shoestore_backend'><Button colored>Backend</Button></a>
+              <a href='https://github.com/korenenyles/drf_shoestore_frontend' rel="noopener noreferrer" target="_blank"><Button colored>Frontend</Button></a>
+              <a href='https://github.com/korenenyles/drf_shoestore_backend' rel="noopener noreferrer" target="_blank"><Button colored>Backend</Button></a>
               
               
             </CardActions>
@@ -196,8 +196,8 @@ class Projects extends Component {
               Used HTML, CSS, and Javascript! 
             </CardText>
             <CardActions border>
-              <a href='https://gitlab.com/kenzieprojects/maze'><Button colored>Gitlab</Button></a>
-              <a href='https://kenzieprojects.gitlab.io/maze '><Button colored>Live Demo</Button></a>
+              <a href='https://gitlab.com/kenzieprojects/maze' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/maze' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
               
               
             </CardActions>
@@ -213,9 +213,9 @@ class Projects extends Component {
               Used HTML, CSS, and Javascript! 
             </CardText>
             <CardActions border>
-              <a href='https://gitlab.com/kenzieprojects/responsivephotogallery'><Button colored>Gitlab</Button></a>
+              <a href='https://gitlab.com/kenzieprojects/responsivephotogallery' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
               
-              <a href='https://kenzieprojects.gitlab.io/responsivephotogallery'><Button colored>Live Demo</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/responsivephotogallery' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -228,9 +228,9 @@ class Projects extends Component {
               Used HTML, CSS, and Javascript! 
             </CardText>
             <CardActions border>
-            <a href='https://gitlab.com/kenzieprojects/sokoban'><Button colored>Gitlab</Button></a>
+            <a href='https://gitlab.com/kenzieprojects/sokoban' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
               
-              <a href='https://kenzieprojects.gitlab.io/sokoban '><Button colored>Live Demo</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/sokoban' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -243,8 +243,8 @@ class Projects extends Component {
               Used React, Redux, and Semantic UI! 
             </CardText>
             <CardActions border>
-              <a href='https://gitlab.com/kenziequartertwoprojects/github-card'><Button colored>Gitlab</Button></a>
-              <a href='https://kenzieprojects.gitlab.io/github-card'><Button colored>Live Demo</Button></a>
+              <a href='https://gitlab.com/kenziequartertwoprojects/github-card' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/github-card' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
               
               
             </CardActions>
@@ -260,9 +260,9 @@ class Projects extends Component {
               Used React, Redux, and Semantic UI! 
             </CardText>
             <CardActions border>
-              <a href='https://gitlab.com/kenziequartertwoprojects/todo-app-part3'><Button colored>Gitlab</Button></a>
+              <a href='https://gitlab.com/kenziequartertwoprojects/todo-app-part3' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
               
-              <a href='https://kenzieprojects.gitlab.io/todo-app-part3'><Button colored>Live Demo</Button></a>
+              <a href='https://kenzieprojects.gitlab.io/todo-app-part3' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -276,9 +276,9 @@ class Projects extends Component {
               Used React, Redux, and Semantic UI!
             </CardText>
             <CardActions border>
-            <a href='https://gitlab.com/kenziequartertwoprojects/subscription-tracker/'><Button colored>Gitlab</Button></a>
+            <a href='https://gitlab.com/kenziequartertwoprojects/subscription-tracker/' rel="noopener noreferrer" target="_blank"><Button colored>Gitlab</Button></a>
               
-              <a href='https://coryt87.gitlab.io/subscription-tracker/'><Button colored>Live Demo</Button></a>
+              <a href='https://coryt87.gitlab.io/subscription-tracker/' rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -291,7 +291,7 @@ class Projects extends Component {
               Used Django, Python, HTML, and some static CSS! 
             </CardText>
             <CardActions border>
-              <a href='https://github.com/korenenyles/twitterclone'><Button colored>Github</Button></a>
+              <a href='https://github.com/korenenyles/twitterclone' rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
               
               
               
@@ -307,7 +307,7 @@ class Projects extends Component {
           Django, Python, HTML, and some static CSS! 
             </CardText>
             <CardActions border>
-              <a href='https://github.com/korenenyles/whats-up-doc'><Button colored>Github</Button></a>
+              <a href='https://github.com/korenenyles/whats-up-doc' rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
               
               
               
@@ -323,8 +323,8 @@ class Projects extends Component {
             Django, Python, React, HTML, and some static CSS! 
             </CardText>
             <CardActions border>
-              <a href='https://github.com/korenenyles/drf_shoestore_frontend'><Button colored>Frontend</Button></a>
-              <a href='https://github.com/korenenyles/drf_shoestore_backend'><Button colored>Backend</Button></a>
+              <a href='https://github.com/korenenyles/drf_shoestore_frontend' rel="noopener noreferrer" target="_blank"><Button colored>Frontend</Button></a>
+              <a href='https://github.com/korenenyles/drf_shoestore_backend' rel="noopener noreferrer" target="_blank"><Button colored>Backend</Button></a>
               
               
             </CardActions>

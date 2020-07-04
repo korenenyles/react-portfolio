@@ -9,13 +9,14 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            
+            <div className="logo-img">
             <img
               src={logo}
               alt="avatar"
               style={{height: '350px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I am Soon to be Full Stack Developer in July 2020. I have been Front End Certified, and I absolutely love it. I am a determined, self starter, and independent worker. I will accomplish whatever I can, even if the skill is not in my wheel house, I will try to find the solution and if I can't find the solution myself, I will find someone to assist with the project who can! I didn't know that my creativity could be translated into code until I found Kenzie Academy and now I'm so thankful I did. Please contact me with any questions that you may have or any opportunities that might be available.</p>
+               </div>
+             <p style={{ width: '75%', margin: 'auto0', paddingTop: '1em', alignSelf: 'center'}}>I am a Full Stack Developer as of July 24th, 2020. I have been Front End Certified, and I absolutely love it. I am a determined, self starter, and independent worker. I will accomplish whatever I can, even if the skill is not in my wheel house, I will try to find the solution and if I can't find the solution myself, I will find someone to assist with the project who can! I didn't know that my creativity could be translated into code until I found Kenzie Academy and now I'm so thankful I did. Please contact me with any questions that you may have or any opportunities that might be available.</p>
 
           </Cell>
           <Cell col={6}>
