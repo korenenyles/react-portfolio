@@ -13,36 +13,39 @@ class Contact extends Component {
             <img
               src={logo}
               alt="avatar"
-              style={{height: '350px'}}
+              style={{height: "300px"}}
                />
                </div>
-             <p style={{ width: '75%', margin: 'auto0', paddingTop: '1em', alignSelf: 'center'}}>I am a Full Stack Developer as of July 24th, 2020. I have been Front End Certified, and I absolutely love it. I am a determined, self starter, and independent worker. I will accomplish whatever I can, even if the skill is not in my wheel house, I will try to find the solution and if I can't find the solution myself, I will find someone to assist with the project who can! I didn't know that my creativity could be translated into code until I found Kenzie Academy and now I'm so thankful I did. Please contact me with any questions that you may have or any opportunities that might be available.</p>
+            
 
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2 style={{textAlign: "center",color: 'white',fontFamily: "'Bungee', cursive"}}>Contact Me:</h2>
             <hr/>
 
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-phone-square" aria-hidden="true"/>
+                  <ListItemContent style={{fontSize: '20px', color: 'white',fontFamily: "'Bungee', cursive"}}>
+                    <i style={{color: "white"}}className="fa fa-phone-square" aria-hidden="true"/>
+                    <br/>
                     (765) 513-8108
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                  <ListItemContent style={{fontSize: '20px', color: 'white',fontFamily: "'Bungee', cursive"}}>
+                    <i style={{color: "white"}}className="fa fa-linkedin-square" aria-hidden="true"/>
+                    <br/>
                     <a href= 'https://www.linkedin.com/in/koren-nyles/'>Here</a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
-                    korenenyles@gmail.com
+                  <ListItemContent style={{fontSize: '18px', color: 'white',fontFamily: "'Bungee', cursive"}}>
+                    <i style={{color: "white"}} className="fa fa-envelope" aria-hidden="true"/>
+                    <br/>
+                    <a href="mailto:korenenyles@gmail.com">Email Me</a>
                   </ListItemContent>
                 </ListItem>
 
