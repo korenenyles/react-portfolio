@@ -18,7 +18,7 @@
 .landing-container{
   font-family: 'Bungee', cursive;
 
-  background-image: url("./components/images/universebinary.png");
+  background-image: url("/images/universebinary.png");
   background-size: cover;
   text-align: center;
   position: fixed;

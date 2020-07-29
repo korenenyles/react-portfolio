@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import headshot from './images/headshot.jpg';
 
 class About extends Component {
   render() {
     return(
       <div className="container">
-        <img src={headshot}
+        <img src={process.env.PUBLIC_URL + '/images/headshot.jpg'}
           alt="avatar"
           style={{}}
           className="headshot"

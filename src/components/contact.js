@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import logo from './images/logo.png';
 
 
 class Contact extends Component {
@@ -9,12 +8,12 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <div className="logo-img">
+          <div className="logo-img">
             <img
-              src={logo}
+              src={process.env.PUBLIC_URL + "images/logo.png"}
               alt="avatar"
               style={{height: "300px"}}
-               />
+               /> 
                </div>
             
 
