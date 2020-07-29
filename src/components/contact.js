@@ -10,7 +10,7 @@ class Contact extends Component {
           <Cell col={6}>
           <div className="logo-img">
             <img
-              src={process.env.PUBLIC_URL + "images/logo.png"}
+              src={require("../images/logo.png")}
               alt="avatar"
               style={{height: "300px"}}
                /> 

@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return(
       <div className="container">
-        <img src={process.env.PUBLIC_URL + '/images/headshot.jpg'}
+        <img src={require('../images/headshot.jpg')}
           alt="avatar"
           style={{}}
           className="headshot"
